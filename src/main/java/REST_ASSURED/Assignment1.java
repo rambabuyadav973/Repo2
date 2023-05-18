@@ -27,6 +27,9 @@ public class Assignment1 {
 		Assert.assertEquals(statusCode, 200);
 
 		}
+	
+			
+		System.out.print("Hello World!!");
 
 
 }
