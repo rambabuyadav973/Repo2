@@ -23,7 +23,7 @@ public class Get {
 		assertEquals(Response.jsonPath().getString("id"), "2");
 		assertEquals(Response.jsonPath().getString("title"), "title0000");
 		
-		assertEquals(Response.jsonPath().getString("jdshgfudj"), "title0000");
+		assertEquals(Response.jsonPath().getStringrr("jdshgfudj"), "title0000");
 	}
 
 }
