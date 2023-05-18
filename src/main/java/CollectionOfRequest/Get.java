@@ -16,14 +16,14 @@ public class Get {
 		// to get details in console
 		given().get("/posts/2").then().log().all();
 		//send request and get response
-		Response Response= given().get("/posts/2").then().extract().response();
+		// Comment12ParasResponse Response= given().get("/posts/2").then().extract().response();
 		//response is in json format
 		//change response to string
 		assertEquals(Response.getStatusCode(), 200);
 		assertEquals(Response.jsonPath().getString("id"), "2");
 		assertEquals(Response.jsonPath().getString("title"), "title0000");
 		
-		
+		assertEquals(Response.jsonPath().getString("jdshgfudj"), "title0000");
 	}
 
 }
