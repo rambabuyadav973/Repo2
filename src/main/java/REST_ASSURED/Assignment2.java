@@ -15,6 +15,8 @@ public class Assignment2 {
 	then(). statusCode(200).
 	body("data[1].id", equalTo(8)).body("data[4].first_name", equalTo("George")). body("data.first_name", hasItems("George", "Rachel")); 
 	}
+	
+	// Added Extra line sof code
 
 
 
